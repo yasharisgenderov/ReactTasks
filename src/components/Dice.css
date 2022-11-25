@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dices{
+    display: flex;
+    column-gap: 25px;
+}
+.dice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 45px;
+  color: white;
+  border-radius: 20px;
+}
+

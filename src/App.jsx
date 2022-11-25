@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import UserForm from './components/UserForm'
+import Dice from './components/Dice'
 
 function App() {
 
   return (
     <div className="App">
-     <UserForm />
+     <Dice />
     </div>
   )
 }
