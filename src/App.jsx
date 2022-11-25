@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import SignUp from "./components/SignUp"
+import Form from './components/Form'
 
 function App() {
 
   return (
     <div className="App">
-     <SignUp />
+     <Form />
     </div>
   )
 }
