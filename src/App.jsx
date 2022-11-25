@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css'
-import PersonalInfo from './components/PersonalInfo'
-import Languages from './components/Languages'
+import Profile from './components/Profile'
 
-const App = () => {
+function App() {
+
   return (
     <div className="App">
-      <PersonalInfo />
-      <Languages />
+      <Profile />
     </div>
   )
 }

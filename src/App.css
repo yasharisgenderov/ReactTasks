@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  
 }
-h2{
-  color: burlywood;
-}
-.logo{
-  border-radius: 50%;
-  width: 100px;
-}
+
+
 
