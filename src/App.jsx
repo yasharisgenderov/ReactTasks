@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import Dice from './components/Dice'
+import SignUp from "./components/SignUp"
 
 function App() {
 
   return (
     <div className="App">
-     <Dice />
+     <SignUp />
     </div>
   )
 }

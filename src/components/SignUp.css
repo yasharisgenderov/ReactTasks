@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+  }
+  .hospital-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    width: 300px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkbox {
+    display: inline;
+  }
+  .resReseption {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  input {
+    background: bisque;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+  }
+  #patientGender {
+    background: bisque;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    display: flex;
+  }
+  .patientName,
+  .age,
+  .email,
+  .pTel {
+    display: flex;
+    flex-direction: column;
+  }
+  #symptom {
+    background: bisque;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .submit {
+    padding: 10px;
+    background: tan;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .id {
+    display: none;
+    width: 300px;
+    height: 200px;
+    margin: 50px 0 10px 10px;
+  }
+  
