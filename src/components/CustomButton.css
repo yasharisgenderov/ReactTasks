@@ -1,0 +1,67 @@
+.btnText {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 100vh;
+}
+.btn {
+  outline: 0;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  width: 140px;
+}
+.hintText {
+  display: none;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  height: 20px;
+  margin-left: 10px;
+  font-style: italic!important;
+  text-align: center;
+}
+.sc {
+  border: 1px solid;
+  float: left;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: grey;
+  border: none;
+  margin-top: 5px;
+  position: absolute;
+  left: -5px;
+  top: 5px;
+}
+.hintOff {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  height: 20px;
+  margin-left: 10px;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+}

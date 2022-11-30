@@ -1,12 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css'
-import Form from './components/Form'
+import  CustomButton  from './components/CustomButton'
 
 function App() {
-
   return (
     <div className="App">
-     <Form />
+     <CustomButton  text='Button' warnMessage='ok' hint="ok"/>
+     <CustomButton  text='Submit' warnMessage='alert'/>
+     <CustomButton  text='Check' warnMessage='warning'/>
     </div>
   )
 }
